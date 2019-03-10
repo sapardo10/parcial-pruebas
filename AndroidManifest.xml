@@ -38,7 +38,7 @@
             <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="de.danoeh.antennapod.activity.MainActivity"/>
         </activity>
         <activity android:launchMode="singleInstance" android:name="de.danoeh.antennapod.activity.DownloadAuthenticationActivity"/>
-        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/settings_label" android:name="de.danoeh.antennapod.activity.PreferenceActivity">
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="Configura" android:name="de.danoeh.antennapod.activity.PreferenceActivity">
             <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="de.danoeh.antennapod.activity.MainActivity"/>
         </activity>
         <activity android:label="@string/feed_info_label" android:name="de.danoeh.antennapod.activity.FeedInfoActivity"/>
@@ -68,9 +68,6 @@
                 <category android:name="android.intent.category.BROWSABLE"/>
                 <data android:host="de.danoeh.antennapod" android:scheme="flattr4j"/>
             </intent-filter>
-        </activity>
-        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/about_pref" android:name="de.danoeh.antennapod.activity.AboutActivity">
-            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="de.danoeh.antennapod.activity.PreferenceActivity"/>
         </activity>
         <activity android:label="@string/statistics_label" android:name="de.danoeh.antennapod.activity.StatisticsActivity">
             <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="de.danoeh.antennapod.activity.PreferenceActivity"/>

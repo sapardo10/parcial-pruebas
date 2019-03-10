@@ -5,7 +5,7 @@
     <Preference android:icon="?ic_cellphone_text" android:title="@string/user_interface_label" android:key="prefScreenInterface" />
     <Preference android:icon="?av_play" android:title="@string/playback_pref" android:key="prefScreenPlayback" />
     <Preference android:icon="?ic_swap" android:title="@string/network_pref" android:key="prefScreenNetwork" />
-    <Preference android:icon="?ic_unfav" android:title="@string/integrations_label" android:key="prefScreenIntegrations" />
+    <Preference android:icon="?ic_unfav" android:title="integracionees" android:key="prefScreenIntegrations" />
     <Preference android:icon="?storage" android:title="@string/storage_pref" android:key="prefScreenStorage" />
     <Preference android:icon="?statistics" android:title="@string/statistics_label" android:key="statistics" />
     <PreferenceCategory android:title="@string/project_pref">

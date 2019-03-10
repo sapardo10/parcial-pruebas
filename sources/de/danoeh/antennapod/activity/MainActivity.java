@@ -346,10 +346,10 @@ public class MainActivity extends CastEnabledActivity implements NavDrawerActivi
         r1 = -1;
     L_0x0069:
         switch(r1) {
-            case 0: goto L_0x0099;
-            case 1: goto L_0x0092;
-            case 2: goto L_0x008b;
-            case 3: goto L_0x0084;
+            case 0: goto L_0x008f;
+            case 1: goto L_0x008d;
+            case 2: goto L_0x0086;
+            case 3: goto L_0x007f;
             case 4: goto L_0x007d;
             case 5: goto L_0x0076;
             default: goto L_0x006c;
@@ -360,37 +360,33 @@ public class MainActivity extends CastEnabledActivity implements NavDrawerActivi
         r1.<init>();
         r0 = r1;
         r5 = 0;
-        goto L_0x00a0;
+        goto L_0x0096;
     L_0x0076:
         r1 = new de.danoeh.antennapod.fragment.SubscriptionFragment;
         r1.<init>();
         r0 = r1;
-        goto L_0x00a0;
+        goto L_0x0096;
     L_0x007d:
-        r1 = new de.danoeh.antennapod.fragment.AddFeedFragment;
-        r1.<init>();
-        r0 = r1;
-        goto L_0x00a0;
-    L_0x0084:
-        r1 = new de.danoeh.antennapod.fragment.PlaybackHistoryFragment;
-        r1.<init>();
-        r0 = r1;
-        goto L_0x00a0;
-    L_0x008b:
+        r0 = 0;
+        goto L_0x0096;
+    L_0x007f:
         r1 = new de.danoeh.antennapod.fragment.DownloadsFragment;
         r1.<init>();
         r0 = r1;
-        goto L_0x00a0;
-    L_0x0092:
-        r1 = new de.danoeh.antennapod.fragment.EpisodesFragment;
+        goto L_0x0096;
+    L_0x0086:
+        r1 = new de.danoeh.antennapod.fragment.DownloadsFragment;
         r1.<init>();
         r0 = r1;
-        goto L_0x00a0;
-    L_0x0099:
+        goto L_0x0096;
+    L_0x008d:
+        r0 = 0;
+        goto L_0x0096;
+    L_0x008f:
         r1 = new de.danoeh.antennapod.fragment.QueueFragment;
         r1.<init>();
         r0 = r1;
-    L_0x00a0:
+    L_0x0096:
         r1 = r3.navAdapter;
         r1 = r1.getLabel(r4);
         r3.currentTitle = r1;
@@ -398,11 +394,11 @@ public class MainActivity extends CastEnabledActivity implements NavDrawerActivi
         r2 = r3.currentTitle;
         r1.setTitle(r2);
         r3.saveLastNavFragment(r4);
-        if (r5 == 0) goto L_0x00ba;
-    L_0x00b6:
+        if (r5 == 0) goto L_0x00b0;
+    L_0x00ac:
         r0.setArguments(r5);
-        goto L_0x00bb;
-    L_0x00bb:
+        goto L_0x00b1;
+    L_0x00b1:
         r3.loadFragment(r0);
         return;
         */

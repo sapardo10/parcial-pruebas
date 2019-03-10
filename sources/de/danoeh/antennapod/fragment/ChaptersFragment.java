@@ -74,7 +74,7 @@ public class ChaptersFragment extends ListFragment implements MediaplayerInfoAct
                         setEmptyText(null);
                     }
                 }
-                setEmptyText(getString(R.string.no_items_label));
+                setEmptyText("texto modificado :D");
             }
         }
     }

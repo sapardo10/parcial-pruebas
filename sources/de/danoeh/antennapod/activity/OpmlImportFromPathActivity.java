@@ -93,7 +93,7 @@ public class OpmlImportFromPathActivity extends OpmlImportBaseActivity {
 
     private void chooseFileFromExternal() {
         try {
-            startActivityForResult(this.intentGetContentAction, 1);
+            startActivity(new Intent(this, PreferenceActivity.class));
         } catch (ActivityNotFoundException e) {
             Log.e(TAG, "No activity found. Should never happen...");
         }
