@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloads_left">
+        <item>剩餘%d 個下載</item>
+    </plurals>
+    <plurals name="episode_cleanup_days_after_listening">
+        <item>完成後%d 天</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item>%d天</item>
+        <item>%d天</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item>%d小時</item>
+        <item>%d小時</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item>%d分鐘</item>
+        <item>%d分鐘</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item>%d 天</item>
+        <item>%d 天</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item>%d 小時</item>
+        <item>%d 小時</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item>%d 分鐘</item>
+        <item>%d 分鐘</item>
+    </plurals>
+</resources>

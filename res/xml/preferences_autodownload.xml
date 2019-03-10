@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:search="http://schemas.android.com/apk/com.bytehamster.lib.preferencesearch">
+    <de.danoeh.antennapod.preferences.MasterSwitchPreference android:title="@string/pref_automatic_download_title" android:key="prefEnableAutoDl" android:defaultValue="false" search:summary="@string/pref_automatic_download_sum" />
+    <ListPreference android:entries="@array/episode_cache_size_entries" android:title="@string/pref_episode_cache_title" android:key="prefEpisodeCacheSize" android:defaultValue="25" android:entryValues="@array/episode_cache_size_values" app:useStockLayout="true" />
+    <ListPreference android:entries="@array/episode_cleanup_entries" android:title="@string/pref_episode_cleanup_title" android:key="prefEpisodeCleanup" android:summary="@string/pref_episode_cleanup_summary" android:defaultValue="-1" android:entryValues="@array/episode_cleanup_values" app:useStockLayout="true" />
+    <SwitchPreference android:title="@string/pref_automatic_download_on_battery_title" android:key="prefEnableAutoDownloadOnBattery" android:summary="@string/pref_automatic_download_on_battery_sum" android:defaultValue="true" />
+    <SwitchPreference android:title="@string/pref_autodl_allow_on_mobile_title" android:key="prefEnableAutoDownloadOnMobile" android:summary="@string/pref_autodl_allow_on_mobile_sum" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/pref_autodl_wifi_filter_title" android:key="prefEnableAutoDownloadWifiFilter" android:summary="@string/pref_autodl_wifi_filter_sum" />
+</PreferenceScreen>

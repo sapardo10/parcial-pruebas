@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloads_left">
+        <item>%d letöltés van hátra</item>
+        <item>%d letöltés van hátra</item>
+    </plurals>
+    <plurals name="episode_cleanup_days_after_listening">
+        <item>1 nappal a befejezés után</item>
+        <item>%d nappal a befejezés után</item>
+    </plurals>
+</resources>

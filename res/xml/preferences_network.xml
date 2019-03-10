@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:numberpicker="http://schemas.android.com/apk/de.danoeh.antennapod"
+  xmlns:search="http://schemas.android.com/apk/com.bytehamster.lib.preferencesearch">
+    <PreferenceCategory android:title="@string/automation">
+        <Preference android:title="@string/pref_autoUpdateIntervallOrTime_title" android:key="prefAutoUpdateIntervall" android:summary="@string/pref_autoUpdateIntervallOrTime_sum" />
+        <Preference android:title="@string/pref_automatic_download_title" android:key="prefAutoDownloadSettings" android:summary="@string/pref_automatic_download_sum" search:ignore="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/download_pref_details">
+        <SwitchPreference android:enabled="true" android:title="@string/pref_mobileUpdate_title" android:key="prefMobileUpdate" android:summary="@string/pref_mobileUpdate_sum" android:defaultValue="false" />
+        <de.danoeh.antennapod.preferences.NumberPickerPreference android:title="@string/pref_parallel_downloads_title" android:key="prefParallelDownloads" android:defaultValue="4" numberpicker:maxValue="50" numberpicker:minValue="1" />
+        <SwitchPreference android:enabled="true" android:title="@string/pref_showDownloadReport_title" android:key="prefShowDownloadReport" android:summary="@string/pref_showDownloadReport_sum" android:defaultValue="true" />
+        <Preference android:title="@string/pref_proxy_title" android:key="prefProxy" android:summary="@string/pref_proxy_sum" />
+    </PreferenceCategory>
+</PreferenceScreen>

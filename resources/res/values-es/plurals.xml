@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloads_left">
+        <item>Queda %d descarga</item>
+        <item>Quedan %d descargas</item>
+    </plurals>
+    <plurals name="episode_cleanup_days_after_listening">
+        <item>1 día después de acabar</item>
+        <item>%d días después de acabar</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item>%dd</item>
+        <item>%dd</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item>%d d</item>
+        <item>%d d</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item>%dh</item>
+        <item>%dh</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item>%d h</item>
+        <item>%d h</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item>%dm</item>
+        <item>%dm</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item>%d m</item>
+        <item>%d m</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item>%d día</item>
+        <item>%d días</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item>%d día</item>
+        <item>%d días</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item>%d hora</item>
+        <item>%d horas</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item>%d hora</item>
+        <item>%d horas</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item>%d min</item>
+        <item>%d min</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item>%d min</item>
+        <item>%d min</item>
+    </plurals>
+    <plurals name="time_hours_quantified">
+        <item>1 hora</item>
+        <item>%d horas</item>
+    </plurals>
+    <plurals name="time_minutes_quantified">
+        <item>1 minuto</item>
+        <item>%d minutos</item>
+    </plurals>
+    <plurals name="time_seconds_quantified">
+        <item>1 segundo</item>
+        <item>%d segundos</item>
+    </plurals>
+</resources>

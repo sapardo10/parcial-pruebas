@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloads_left">
+        <item>剩余%d个下载项</item>
+    </plurals>
+    <plurals name="episode_cleanup_days_after_listening">
+        <item>结束后 %d 天</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item>%d天</item>
+        <item>%d天</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item>%d小时</item>
+        <item>%d小时</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item>%d分钟</item>
+        <item>%d分钟</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item>%d 天</item>
+        <item>%d 天</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item>%d 小时</item>
+        <item>%d 小时</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item>%d 分钟</item>
+        <item>%d 分钟</item>
+    </plurals>
+    <plurals name="time_hours_quantified">
+        <item>%d 小时</item>
+    </plurals>
+    <plurals name="time_minutes_quantified">
+        <item>%d 分</item>
+    </plurals>
+    <plurals name="time_seconds_quantified">
+        <item>%d 秒</item>
+    </plurals>
+</resources>

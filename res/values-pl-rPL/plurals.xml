@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloads_left">
+        <item quantity="other">%d elementów zostało do pobrania</item>
+        <item quantity="one">%d element został do pobrania</item>
+        <item quantity="few">%d elementów zostało do pobrania</item>
+        <item quantity="many">%d elementów zostało do pobrania</item>
+    </plurals>
+    <plurals name="episode_cleanup_days_after_listening">
+        <item quantity="other">%d dni po odtworzeniu</item>
+        <item quantity="one">1 dzień po odtworzeniu</item>
+        <item quantity="few">%d dni po odtworzeniu</item>
+        <item quantity="many">%d dni po odtworzeniu</item>
+    </plurals>
+    <plurals name="time_hours_quantified">
+        <item quantity="other">%d godzin</item>
+        <item quantity="one">1 godzina</item>
+        <item quantity="few">%d godziny</item>
+        <item quantity="many">%d godzin</item>
+    </plurals>
+    <plurals name="time_minutes_quantified">
+        <item quantity="other">%d minut</item>
+        <item quantity="one">1 minuta</item>
+        <item quantity="few">%d minuty</item>
+        <item quantity="many">%d minut</item>
+    </plurals>
+    <plurals name="time_seconds_quantified">
+        <item quantity="other">%d sekund</item>
+        <item quantity="one">1 sekunda</item>
+        <item quantity="few">%d sekundy</item>
+        <item quantity="many">%d sekund</item>
+    </plurals>
+</resources>

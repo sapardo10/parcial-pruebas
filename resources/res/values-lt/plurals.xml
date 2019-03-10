@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloads_left">
+        <item>Liko %d atsiuntimas</item>
+        <item>Liko %d atsiuntimai</item>
+        <item>Liko %d atsiuntimų</item>
+        <item>Liko %d atsiuntimų</item>
+    </plurals>
+    <plurals name="episode_cleanup_days_after_listening">
+        <item>Praėjus 1 dienai nuo perklausymo</item>
+        <item>Praėjus %d dienoms nuo perklausymo</item>
+        <item>Praėjus %d dienų nuo perklausymo</item>
+        <item>Praėjus %d dienų nuo perklausymo</item>
+    </plurals>
+    <plurals name="time_hours_quantified">
+        <item>1 valanda</item>
+        <item>%d valandos</item>
+        <item>%d valandų</item>
+        <item>%d valandų</item>
+    </plurals>
+    <plurals name="time_minutes_quantified">
+        <item>1 minutė</item>
+        <item>%d minutės</item>
+        <item>%d minučių</item>
+        <item>%d minučių</item>
+    </plurals>
+    <plurals name="time_seconds_quantified">
+        <item>1 sekundė</item>
+        <item>%d sekundės</item>
+        <item>%d sekundžių</item>
+        <item>%d sekundžių</item>
+    </plurals>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="time_difference_short_days">
+        <item>%d d</item>
+        <item>%d d</item>
+        <item>%d d</item>
+        <item>%d d</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item>%d h</item>
+        <item>%d h</item>
+        <item>%d h</item>
+        <item>%d h</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item>%d min</item>
+        <item>%d min</item>
+        <item>%d min</item>
+        <item>%d min</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item>%d den</item>
+        <item>%d dny</item>
+        <item>%d dne</item>
+        <item>%d dnů</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item>%d hodina</item>
+        <item>%d hodiny</item>
+        <item>%d hodiny</item>
+        <item>%d hodin</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item>%d minuta</item>
+        <item>%d minuty</item>
+        <item>%d minuty</item>
+        <item>%d minut</item>
+    </plurals>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="time_difference_short_days">
+        <item>%d 天</item>
+        <item>%d 天</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item>%d 小時</item>
+        <item>%d 小時</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item>%d 分鐘</item>
+        <item>%d 分鐘</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item>%d 天</item>
+        <item>%d 天</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item>%d 小時</item>
+        <item>%d 小時</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item>%d 分鐘</item>
+        <item>%d 分鐘</item>
+    </plurals>
+</resources>

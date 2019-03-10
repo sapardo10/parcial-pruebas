@@ -1,0 +1,10 @@
+package de.danoeh.antennapod.activity;
+
+import android.support.v7.app.AppCompatActivity;
+
+public abstract class CastEnabledActivity extends AppCompatActivity {
+    public static final String TAG = "CastEnabledActivity";
+
+    public final void requestCastButton(int showAsAction) {
+    }
+}

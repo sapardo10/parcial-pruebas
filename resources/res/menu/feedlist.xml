@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="?attr/ic_filter" android:id="@+id/filter_items" android:menuCategory="container" android:title="@string/filter" app:showAsAction="always"/>
+    <item android:icon="?attr/checkbox_multiple" android:id="@+id/episode_actions" android:menuCategory="container" android:title="@string/batch_edit" app:showAsAction="always"/>
+    <item android:icon="?attr/navigation_refresh" android:id="@+id/refresh_item" android:menuCategory="container" android:title="@string/refresh_label" app:showAsAction="always"/>
+    <item android:id="@+id/refresh_complete_item" android:menuCategory="container" android:title="@string/load_complete_feed" app:showAsAction="collapseActionView"/>
+    <item android:icon="?attr/action_search" android:id="@+id/action_search" android:title="@string/search_label" app:actionViewClass="android.support.v7.widget.SearchView" app:showAsAction="always"/>
+    <item android:id="@+id/support_item" android:visible="false" android:menuCategory="container" android:title="@string/support_label" app:showAsAction="collapseActionView"/>
+    <item android:icon="?attr/location_web_site" android:id="@+id/visit_website_item" android:visible="true" android:menuCategory="container" android:title="@string/visit_website_label" app:showAsAction="collapseActionView"/>
+    <item android:id="@+id/share_link_item" android:menuCategory="container" android:title="@string/share_link_label" app:showAsAction="collapseActionView"/>
+    <item android:id="@+id/share_download_url_item" android:menuCategory="container" android:title="@string/share_feed_url_label" app:showAsAction="collapseActionView"/>
+    <item android:id="@+id/rename_item" android:menuCategory="container" android:title="@string/rename_feed_label" app:showAsAction="never"/>
+    <item android:icon="?attr/content_discard" android:id="@+id/remove_item" android:visible="true" android:menuCategory="container" android:title="@string/remove_feed_label" app:showAsAction="collapseActionView"/>
+</menu>

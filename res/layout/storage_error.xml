@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imageView1" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_margin="8.0dip" android:src="?ic_sd_storage" android:contentDescription="@string/external_storage_error_msg" />
+    <TextView android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:text="@string/external_storage_error_msg" />
+    <Button android:id="@id/btnChooseDataFolder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:text="@string/choose_data_directory" />
+</LinearLayout>

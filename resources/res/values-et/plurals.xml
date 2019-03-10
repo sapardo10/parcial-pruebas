@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloads_left">
+        <item>%d allalaadimine järgi</item>
+        <item>%d allalaadimisi järgi</item>
+    </plurals>
+    <plurals name="episode_cleanup_days_after_listening">
+        <item>1 päev pärast lõpetamist</item>
+        <item>%d päeva pärast lõpetamist</item>
+    </plurals>
+    <plurals name="time_hours_quantified">
+        <item>1 tund</item>
+        <item>%d tundi</item>
+    </plurals>
+    <plurals name="time_minutes_quantified">
+        <item>1 minut</item>
+        <item>%d minutit</item>
+    </plurals>
+    <plurals name="time_seconds_quantified">
+        <item>1 sekund</item>
+        <item>%d sekundit</item>
+    </plurals>
+</resources>

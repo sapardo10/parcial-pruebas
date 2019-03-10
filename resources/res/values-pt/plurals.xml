@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloads_left">
+        <item>%d descarga em curso</item>
+        <item>%d descargas em curso</item>
+    </plurals>
+    <plurals name="episode_cleanup_days_after_listening">
+        <item>1 dia depois de terminar</item>
+        <item>%d dias depois de terminar</item>
+    </plurals>
+    <plurals name="time_hours_quantified">
+        <item>1 hora</item>
+        <item>%d horas</item>
+    </plurals>
+    <plurals name="time_minutes_quantified">
+        <item>1 minuto</item>
+        <item>%d minutos</item>
+    </plurals>
+    <plurals name="time_seconds_quantified">
+        <item>1 segundo</item>
+        <item>%d segundos</item>
+    </plurals>
+</resources>

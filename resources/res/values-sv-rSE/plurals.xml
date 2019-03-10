@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloads_left">
+        <item>%d nedladdning kvar</item>
+        <item>%d nedladdningar kvar</item>
+    </plurals>
+    <plurals name="episode_cleanup_days_after_listening">
+        <item>1 dag efter färdigspelad</item>
+        <item>%d dagar efter färdigspelad</item>
+    </plurals>
+    <plurals name="time_hours_quantified">
+        <item>1 timme</item>
+        <item>%d timmar</item>
+    </plurals>
+    <plurals name="time_minutes_quantified">
+        <item>1 minut</item>
+        <item>%d minuter</item>
+    </plurals>
+    <plurals name="time_seconds_quantified">
+        <item>1 sekund</item>
+        <item>%d sekunder</item>
+    </plurals>
+</resources>

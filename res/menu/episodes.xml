@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <item android:icon="?action_search" android:id="@id/action_search" android:title="@string/search_label" custom:actionViewClass="android.support.v7.widget.SearchView" custom:showAsAction="always" />
+    <item android:icon="?navigation_refresh" android:id="@id/refresh_item" android:menuCategory="container" android:title="@string/refresh_label" custom:showAsAction="always" />
+    <item android:icon="?navigation_accept" android:id="@id/mark_all_read_item" android:menuCategory="container" android:title="@string/mark_all_read_label" custom:showAsAction="collapseActionView" />
+    <item android:icon="?navigation_accept" android:id="@id/mark_all_seen_item" android:menuCategory="container" android:title="@string/mark_all_seen_label" custom:showAsAction="collapseActionView" />
+</menu>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/txtvExplanation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:text="@string/flattr_auth_explanation" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/but_authenticate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:text="@string/authenticate_label" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/but_return_home" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/return_home_label" />
+</LinearLayout>

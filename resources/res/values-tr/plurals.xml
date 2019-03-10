@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloads_left">
+        <item>%d indirme kaldı</item>
+        <item>%d indirme kaldı</item>
+    </plurals>
+    <plurals name="episode_cleanup_days_after_listening">
+        <item>Bittikten 1 gün sonra</item>
+        <item>Bittikten %d gün sonra</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item>%d g.</item>
+        <item>%d g.</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item>%d sa.</item>
+        <item>%d sa.</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item>%d dk.</item>
+        <item>%d dk.</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item>%d gün</item>
+        <item>%d gün</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item>%d saat</item>
+        <item>%d saat</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item>%d dk.</item>
+        <item>%d dk.</item>
+    </plurals>
+    <plurals name="time_hours_quantified">
+        <item>1 saat</item>
+        <item>%d saat</item>
+    </plurals>
+    <plurals name="time_minutes_quantified">
+        <item>1 dakika</item>
+        <item>%d dakika</item>
+    </plurals>
+    <plurals name="time_seconds_quantified">
+        <item>1 saniye</item>
+        <item>%d saniye</item>
+    </plurals>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloads_left">
+        <item quantity="other">Liko %d atsiuntimų</item>
+        <item quantity="one">Liko %d atsiuntimas</item>
+        <item quantity="few">Liko %d atsiuntimai</item>
+        <item quantity="many">Liko %d atsiuntimų</item>
+    </plurals>
+    <plurals name="episode_cleanup_days_after_listening">
+        <item quantity="other">Praėjus %d dienų nuo perklausymo</item>
+        <item quantity="one">Praėjus 1 dienai nuo perklausymo</item>
+        <item quantity="few">Praėjus %d dienoms nuo perklausymo</item>
+        <item quantity="many">Praėjus %d dienų nuo perklausymo</item>
+    </plurals>
+    <plurals name="time_hours_quantified">
+        <item quantity="other">%d valandų</item>
+        <item quantity="one">1 valanda</item>
+        <item quantity="few">%d valandos</item>
+        <item quantity="many">%d valandų</item>
+    </plurals>
+    <plurals name="time_minutes_quantified">
+        <item quantity="other">%d minučių</item>
+        <item quantity="one">1 minutė</item>
+        <item quantity="few">%d minutės</item>
+        <item quantity="many">%d minučių</item>
+    </plurals>
+    <plurals name="time_seconds_quantified">
+        <item quantity="other">%d sekundžių</item>
+        <item quantity="one">1 sekundė</item>
+        <item quantity="few">%d sekundės</item>
+        <item quantity="many">%d sekundžių</item>
+    </plurals>
+</resources>

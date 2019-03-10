@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="time_difference_short_days">
+        <item>%d दिन</item>
+        <item>%d दिन</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item>%d घंटा</item>
+        <item>%d घंटे</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item>%d मि.</item>
+        <item>%d मि.</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item>%d दिन</item>
+        <item>%d दिन</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item>%d घंटे</item>
+        <item>%d घंटे</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item>%d मि.</item>
+        <item>%d मि.</item>
+    </plurals>
+</resources>

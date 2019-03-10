@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/txtvStart" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/listitem_threeline_horizontalpadding" style="@style/AntennaPod.TextView.ListItemSecondaryTitle" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/listitem_threeline_horizontalpadding" android:layout_marginTop="@dimen/listitem_threeline_verticalpadding" android:layout_marginRight="@dimen/listitem_threeline_horizontalpadding" android:layout_marginBottom="@dimen/listitem_threeline_verticalpadding" android:layout_weight="1.0">
+        <TextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:id="@id/txtvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:maxLines="2" />
+        <TextView android:id="@id/txtvLink" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:id="@id/txtvDuration" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+    <include layout="@layout/vertical_list_divider" />
+    <ImageButton android:id="@id/butPlayChapter" android:background="?selectableItemBackground" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="@dimen/listview_secondary_button_width" android:layout_height="fill_parent" android:src="?av_play" android:contentDescription="@string/chapters_label"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</LinearLayout>

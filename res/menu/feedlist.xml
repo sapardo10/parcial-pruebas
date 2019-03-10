@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <item android:icon="?ic_filter" android:id="@id/filter_items" android:menuCategory="container" android:title="@string/filter" custom:showAsAction="always" />
+    <item android:icon="?checkbox_multiple" android:id="@id/episode_actions" android:menuCategory="container" android:title="@string/batch_edit" custom:showAsAction="always" />
+    <item android:icon="?navigation_refresh" android:id="@id/refresh_item" android:menuCategory="container" android:title="@string/refresh_label" custom:showAsAction="always" />
+    <item android:id="@id/refresh_complete_item" android:menuCategory="container" android:title="@string/load_complete_feed" custom:showAsAction="collapseActionView" />
+    <item android:icon="?action_search" android:id="@id/action_search" android:title="@string/search_label" custom:actionViewClass="android.support.v7.widget.SearchView" custom:showAsAction="always" />
+    <item android:id="@id/support_item" android:visible="false" android:menuCategory="container" android:title="@string/support_label" custom:showAsAction="collapseActionView" />
+    <item android:icon="?location_web_site" android:id="@id/visit_website_item" android:visible="true" android:menuCategory="container" android:title="@string/visit_website_label" custom:showAsAction="collapseActionView" />
+    <item android:id="@id/share_link_item" android:menuCategory="container" android:title="@string/share_link_label" custom:showAsAction="collapseActionView" />
+    <item android:id="@id/share_download_url_item" android:menuCategory="container" android:title="@string/share_feed_url_label" custom:showAsAction="collapseActionView" />
+    <item android:id="@id/rename_item" android:menuCategory="container" android:title="@string/rename_feed_label" custom:showAsAction="never" />
+    <item android:icon="?content_discard" android:id="@id/remove_item" android:visible="true" android:menuCategory="container" android:title="@string/remove_feed_label" custom:showAsAction="collapseActionView" />
+</menu>

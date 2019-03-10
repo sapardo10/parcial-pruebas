@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloads_left">
+        <item>%d ダウンロード残</item>
+    </plurals>
+    <plurals name="episode_cleanup_days_after_listening">
+        <item>完了 %d 日後</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item>%d日</item>
+        <item>%d日</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item>%d時間</item>
+        <item>%d時間</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item>%d分</item>
+        <item>%d分</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item>%d日</item>
+        <item>%d日</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item>%d時間</item>
+        <item>%d時間</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item>%d分</item>
+        <item>%d分</item>
+    </plurals>
+    <plurals name="time_hours_quantified">
+        <item>%d 時間</item>
+    </plurals>
+    <plurals name="time_minutes_quantified">
+        <item>%d 分</item>
+    </plurals>
+    <plurals name="time_seconds_quantified">
+        <item>%d 秒</item>
+    </plurals>
+</resources>

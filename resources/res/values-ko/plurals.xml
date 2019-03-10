@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloads_left">
+        <item>다운로드 %d개 남음</item>
+    </plurals>
+    <plurals name="episode_cleanup_days_after_listening">
+        <item>재생이 끝나고 나서 %d일 뒤</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item>%d일</item>
+        <item>%d일</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item>%d시간</item>
+        <item>%d시간</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item>%d분</item>
+        <item>%d분</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item>%d일</item>
+        <item>%d일</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item>%d시간</item>
+        <item>%d시간</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item>%d분</item>
+        <item>%d분</item>
+    </plurals>
+    <plurals name="time_hours_quantified">
+        <item>%d시간</item>
+    </plurals>
+    <plurals name="time_minutes_quantified">
+        <item>%d분</item>
+    </plurals>
+    <plurals name="time_seconds_quantified">
+        <item>%d초</item>
+    </plurals>
+</resources>

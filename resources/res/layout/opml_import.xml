@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/txtvHeadingExplanation1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/txtvfeedurl_label" style="@style/AntennaPod.TextView.Heading"/>
+        <TextView android:textSize="@dimen/text_size_medium" android:id="@+id/txtvExplanation1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/opml_import_explanation_1"/>
+        <Button android:layout_gravity="center_horizontal" android:id="@+id/butChooseFileFromFilesystem" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/choose_file_from_filesystem"/>
+        <View android:id="@+id/divider1" android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="1dp" android:layout_margin="16dp"/>
+        <TextView android:id="@+id/txtvHeadingExplanation2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/txtvfeedurl_label" style="@style/AntennaPod.TextView.Heading"/>
+        <TextView android:textSize="@dimen/text_size_medium" android:id="@+id/txtvExplanation2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/opml_import_explanation_2"/>
+        <Button android:layout_gravity="center_horizontal" android:id="@+id/butChooseFileFromExternal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/choose_file_from_external_application"/>
+        <View android:id="@+id/divider2" android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="1dp" android:layout_margin="16dp"/>
+        <TextView android:id="@+id/txtvHeadingExplanation3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/txtvfeedurl_label" style="@style/AntennaPod.TextView.Heading"/>
+        <TextView android:textSize="@dimen/text_size_medium" android:id="@+id/txtvExplanation3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/opml_import_explanation_3"/>
+    </LinearLayout>
+</ScrollView>

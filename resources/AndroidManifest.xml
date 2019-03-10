@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1070196" android:versionName="1.7.1" android:installLocation="auto" package="de.danoeh.antennapod.debug" platformBuildVersionCode="1070196" platformBuildVersionName="1.7.1">
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="26"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true"/>
+    <uses-feature android:name="android.hardware.screen.portrait" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <application android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:name="de.danoeh.antennapod.PodcastApp" android:debuggable="true" android:backupAgent="de.danoeh.antennapod.core.backup.OpmlBackupAgent" android:allowBackup="true" android:restoreAnyVersion="true" android:logo="@mipmap/ic_launcher" android:supportsRtl="true" android:roundIcon="@mipmap/ic_launcher_round">
+        <meta-data android:name="com.google.android.gms.car.notification.SmallIcon" android:resource="@drawable/ic_notification"/>
+        <meta-data android:name="com.google.android.backup.api_key" android:value="AEdPqrEAAAAI3a05VToCTlqBymJrbFGaKQMvF-bBAuLsOdavBA"/>
+        <activity android:theme="@style/Theme.AntennaPod.Dark.Splash" android:label="@string/app_name" android:name="de.danoeh.antennapod.activity.SplashActivity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="de.danoeh.antennapod.activity.MainActivity" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="de.danoeh.antennapod.activity.AudioplayerActivity" android:launchMode="singleTop">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="de.danoeh.antennapod.activity.MainActivity"/>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="audio/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="de.danoeh.antennapod.activity.CastplayerActivity" android:launchMode="singleTop">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="de.danoeh.antennapod.activity.MainActivity"/>
+        </activity>
+        <activity android:name="de.danoeh.antennapod.activity.DownloadAuthenticationActivity" android:launchMode="singleInstance"/>
+        <activity android:label="@string/settings_label" android:name="de.danoeh.antennapod.activity.PreferenceActivity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="de.danoeh.antennapod.activity.MainActivity"/>
+        </activity>
+        <activity android:label="@string/feed_info_label" android:name="de.danoeh.antennapod.activity.FeedInfoActivity"/>
+        <activity android:label="@string/feed_settings_label" android:name="de.danoeh.antennapod.activity.FeedSettingsActivity" android:windowSoftInputMode="stateHidden"/>
+        <service android:name="de.danoeh.antennapod.core.service.PlayerWidgetJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true" android:exported="false"/>
+        <receiver android:name="de.danoeh.antennapod.core.receiver.PlayerWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="de.danoeh.antennapod.FORCE_WIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/player_widget_info"/>
+            <intent-filter>
+                <action android:name="de.danoeh.antennapod.STOP_WIDGET_UPDATE"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="de.danoeh.antennapod.activity.StorageErrorActivity"/>
+        <activity android:label="@string/flattr_auth_label" android:name="de.danoeh.antennapod.activity.FlattrAuthActivity">
+            <intent-filter>
+                <action android:name=".activities.FlattrAuthActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="flattr4j" android:host="de.danoeh.antennapod"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/about_pref" android:name="de.danoeh.antennapod.activity.AboutActivity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="de.danoeh.antennapod.activity.PreferenceActivity"/>
+        </activity>
+        <activity android:label="@string/statistics_label" android:name="de.danoeh.antennapod.activity.StatisticsActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="de.danoeh.antennapod.activity.PreferenceActivity"/>
+        </activity>
+        <activity android:label="@string/import_export" android:name="de.danoeh.antennapod.activity.ImportExportActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="de.danoeh.antennapod.activity.PreferenceActivity"/>
+        </activity>
+        <activity android:label="@string/opml_import_label" android:name="de.danoeh.antennapod.activity.OpmlImportFromPathActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:label="@string/opml_import_label" android:name="de.danoeh.antennapod.activity.OpmlImportFromIntentActivity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="text/xml"/>
+                <data android:mimeType="text/x-opml"/>
+                <data android:mimeType="application/xml"/>
+                <data android:mimeType="application/octet-stream"/>
+                <data android:scheme="file"/>
+                <data android:scheme="content"/>
+                <data android:host="*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="text/xml"/>
+                <data android:mimeType="text/plain"/>
+                <data android:mimeType="text/x-opml"/>
+                <data android:mimeType="application/xml"/>
+                <data android:mimeType="application/octet-stream"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/opml_import_label" android:name="de.danoeh.antennapod.activity.OpmlFeedChooserActivity"/>
+        <activity android:name="de.danoeh.antennapod.activity.VideoplayerActivity" android:screenOrientation="sensorLandscape" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:supportsPictureInPicture="true">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="de.danoeh.antennapod.activity.MainActivity"/>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/choose_data_directory" android:name="de.danoeh.antennapod.activity.DirectoryChooserActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="de.danoeh.antennapod.activity.PreferenceActivity"/>
+        </activity>
+        <activity android:label="@string/add_feed_label" android:name="de.danoeh.antennapod.activity.OnlineFeedViewActivity" android:configChanges="orientation|screenSize">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="de.danoeh.antennapod.activity.MainActivity"/>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="*"/>
+                <data android:pathPattern=".*\.xml"/>
+                <data android:pathPattern=".*\.rss"/>
+                <data android:pathPattern=".*\.atom"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="feeds.feedburner.com"/>
+                <data android:host="feedproxy.google.com"/>
+                <data android:host="feeds2.feedburner.com"/>
+                <data android:host="feedsproxy.google.com"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:mimeType="text/xml"/>
+                <data android:mimeType="application/rss+xml"/>
+                <data android:mimeType="application/atom+xml"/>
+                <data android:mimeType="application/xml"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="itpc"/>
+                <data android:scheme="pcast"/>
+                <data android:scheme="feed"/>
+                <data android:scheme="antennapod-subscribe"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/gpodnet_auth_label" android:name="de.danoeh.antennapod.activity.gpoddernet.GpodnetAuthenticationActivity" android:screenOrientation="portrait" android:configChanges="orientation">
+            <intent-filter>
+                <action android:name=".activity.gpoddernet.GpodnetAuthenticationActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="de.danoeh.antennapod.activity.PreferenceActivity"/>
+        </activity>
+        <receiver android:name="de.danoeh.antennapod.receiver.ConnectivityActionReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="de.danoeh.antennapod.receiver.PowerConnectionReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="de.danoeh.antennapod.receiver.SPAReceiver">
+            <intent-filter>
+                <action android:name="de.danoeh.antennapdsp.intent.SP_APPS_QUERY_FEEDS_RESPONSE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="de.danoeh.antennapod.core.receiver.AlarmUpdateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <data android:scheme="package" android:path="de.danoeh.antennapod"/>
+            </intent-filter>
+        </receiver>
+        <provider android:name="android.support.v4.content.FileProvider" android:exported="false" android:authorities="@string/provider_authority" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
+        </provider>
+        <meta-data android:name="com.google.android.gms.car.application" android:resource="@xml/automotive_app_desc"/>
+        <service android:name="de.danoeh.antennapod.core.service.download.DownloadService" android:enabled="true"/>
+        <service android:label="@string/app_name" android:name="de.danoeh.antennapod.core.service.playback.PlaybackService" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="android.media.browse.MediaBrowserService"/>
+            </intent-filter>
+        </service>
+        <service android:name="de.danoeh.antennapod.core.service.GpodnetSyncService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true"/>
+        <receiver android:name="de.danoeh.antennapod.core.receiver.MediaButtonReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="de.danoeh.antennapod.NOTIFY_BUTTON_RECEIVER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:label="@string/feed_update_receiver_name" android:name="de.danoeh.antennapod.core.receiver.FeedUpdateReceiver" android:exported="true"/>
+        <service android:name="de.danoeh.antennapod.core.service.FeedUpdateJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <uses-library android:name="com.google.android.wearable" android:required="false"/>
+        <meta-data android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule" android:value="GlideModule"/>
+        <meta-data android:name="android.support.VERSION" android:value="26.1.0"/>
+    </application>
+</manifest>

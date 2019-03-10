@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="episode_cleanup_days_after_listening">
+        <item quantity="other">%dروز بعد از اتمام</item>
+        <item quantity="one">%dروز بعد از اتمام</item>
+    </plurals>
+</resources>

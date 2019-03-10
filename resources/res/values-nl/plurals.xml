@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloads_left">
+        <item>Nog %d download</item>
+        <item>Nog %d downloads</item>
+    </plurals>
+    <plurals name="episode_cleanup_days_after_listening">
+        <item>1 dag nadat de aflevering is gemarkeerd als afgespeeld</item>
+        <item>%d dagen nadat de aflevering is gemarkeerd als afgespeeld</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item>%dd</item>
+        <item>%dd</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item>%du</item>
+        <item>%du</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item>%dm</item>
+        <item>%dm</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item>%d dag</item>
+        <item>%d dagen</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item>%d uur</item>
+        <item>%d uur</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item>%d minuut</item>
+        <item>%d minuten</item>
+    </plurals>
+    <plurals name="time_hours_quantified">
+        <item>1 uur</item>
+        <item>%d uur</item>
+    </plurals>
+    <plurals name="time_minutes_quantified">
+        <item>1 minuut</item>
+        <item>%d minuten</item>
+    </plurals>
+    <plurals name="time_seconds_quantified">
+        <item>1 seconde</item>
+        <item>%d seconden</item>
+    </plurals>
+</resources>

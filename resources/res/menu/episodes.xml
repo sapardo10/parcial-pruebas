@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="?attr/action_search" android:id="@+id/action_search" android:title="@string/search_label" app:actionViewClass="android.support.v7.widget.SearchView" app:showAsAction="always"/>
+    <item android:icon="?attr/navigation_refresh" android:id="@+id/refresh_item" android:menuCategory="container" android:title="@string/refresh_label" app:showAsAction="always"/>
+    <item android:icon="?attr/navigation_accept" android:id="@+id/mark_all_read_item" android:menuCategory="container" android:title="@string/mark_all_read_label" app:showAsAction="collapseActionView"/>
+    <item android:icon="?attr/navigation_accept" android:id="@+id/mark_all_seen_item" android:menuCategory="container" android:title="@string/mark_all_seen_label" app:showAsAction="collapseActionView"/>
+</menu>

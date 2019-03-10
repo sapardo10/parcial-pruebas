@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="time_difference_short_days">
+        <item>%d ว</item>
+        <item>%d ว</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item>%d ชม.</item>
+        <item>%d ชม.</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item>%d น</item>
+        <item>%d น</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item>%d ว</item>
+        <item>%d ว</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item>%d ชั่วโมง</item>
+        <item>%d ชั่วโมง</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item>%d นาที</item>
+        <item>%d นาที</item>
+    </plurals>
+</resources>

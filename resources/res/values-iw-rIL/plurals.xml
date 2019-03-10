@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloads_left">
+        <item>נותרה הורדה %d</item>
+        <item>נותרו %d הורדות</item>
+        <item>נותרו %d הורדות</item>
+        <item>נותרו %d הורדות</item>
+    </plurals>
+    <plurals name="episode_cleanup_days_after_listening">
+        <item>יום אחרי סיום</item>
+        <item>%d ימים לאחר סיום</item>
+        <item>%d ימים לאחר סיום</item>
+        <item>%d ימים לאחר סיום</item>
+    </plurals>
+    <plurals name="time_hours_quantified">
+        <item>שעה</item>
+        <item>שעתיים</item>
+        <item>%d שעות</item>
+        <item>%d שעות</item>
+    </plurals>
+    <plurals name="time_minutes_quantified">
+        <item>דקה אחת</item>
+        <item>%d דקות</item>
+        <item>%d דקות</item>
+        <item>%d דקות</item>
+    </plurals>
+    <plurals name="time_seconds_quantified">
+        <item>שנייה אחת</item>
+        <item>%d שניות</item>
+        <item>%d שניות</item>
+        <item>%d שניות</item>
+    </plurals>
+</resources>

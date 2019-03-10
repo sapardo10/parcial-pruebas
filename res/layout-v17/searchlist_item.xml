@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@dimen/listitem_threeline_verticalpadding" android:paddingBottom="@dimen/listitem_threeline_verticalpadding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imgvFeedimage" android:layout_width="@dimen/thumbnail_length_itemlist" android:layout_height="@dimen/thumbnail_length_itemlist" android:layout_marginLeft="@dimen/listitem_threeline_horizontalpadding" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/cover_label" android:layout_marginStart="@dimen/listitem_threeline_horizontalpadding" android:layout_alignParentStart="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/listitem_iconwithtext_textleftpadding" android:layout_marginRight="@dimen/listitem_threeline_verticalpadding" android:layout_toRightOf="@id/imgvFeedimage" android:layout_marginStart="@dimen/listitem_iconwithtext_textleftpadding" android:layout_marginEnd="@dimen/listitem_threeline_verticalpadding" android:layout_toEndOf="@id/imgvFeedimage">
+        <TextView android:id="@id/txtvTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" style="@style/AntennaPod.TextView.ListItemPrimaryTitle" />
+        <TextView android:id="@id/txtvSubtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" style="@style/AntennaPod.TextView.ListItemSecondaryTitle" />
+    </LinearLayout>
+</RelativeLayout>

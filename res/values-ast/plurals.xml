@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloads_left">
+        <item quantity="other">%d descargues restantes</item>
+        <item quantity="one">%d descarga restante</item>
+    </plurals>
+    <plurals name="episode_cleanup_days_after_listening">
+        <item quantity="other">%d díes dempués de finar</item>
+        <item quantity="one">1 día dempués de finar</item>
+    </plurals>
+</resources>

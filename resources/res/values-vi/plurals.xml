@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloads_left">
+        <item>Còn %d tải xuống</item>
+    </plurals>
+    <plurals name="episode_cleanup_days_after_listening">
+        <item>%d ngày sau khi nghe xong</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item>%d ngày</item>
+        <item>%d ngày</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item>%d giờ</item>
+        <item>%d giờ</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item>%d phút</item>
+        <item>%d phút</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item>%d ngày</item>
+        <item>%d ngày</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item>%d giờ</item>
+        <item>%d giờ</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item>%d phút</item>
+        <item>%d phút</item>
+    </plurals>
+</resources>

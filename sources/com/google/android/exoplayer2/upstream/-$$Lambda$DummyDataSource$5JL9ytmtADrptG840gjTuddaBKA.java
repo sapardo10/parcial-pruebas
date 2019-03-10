@@ -1,0 +1,15 @@
+package com.google.android.exoplayer2.upstream;
+
+import com.google.android.exoplayer2.upstream.DataSource.Factory;
+
+/* compiled from: lambda */
+public final /* synthetic */ class -$$Lambda$DummyDataSource$5JL9ytmtADrptG840gjTuddaBKA implements Factory {
+    public static final /* synthetic */ -$$Lambda$DummyDataSource$5JL9ytmtADrptG840gjTuddaBKA INSTANCE = new -$$Lambda$DummyDataSource$5JL9ytmtADrptG840gjTuddaBKA();
+
+    private /* synthetic */ -$$Lambda$DummyDataSource$5JL9ytmtADrptG840gjTuddaBKA() {
+    }
+
+    public final DataSource createDataSource() {
+        return new DummyDataSource();
+    }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.bytehamster.lib.preferencesearch.SearchPreference android:key="searchPreference" />
+    <Preference android:icon="?ic_cellphone_text" android:title="@string/user_interface_label" android:key="prefScreenInterface" />
+    <Preference android:icon="?av_play" android:title="@string/playback_pref" android:key="prefScreenPlayback" />
+    <Preference android:icon="?ic_swap" android:title="@string/network_pref" android:key="prefScreenNetwork" />
+    <Preference android:icon="?ic_unfav" android:title="@string/integrations_label" android:key="prefScreenIntegrations" />
+    <Preference android:icon="?storage" android:title="@string/storage_pref" android:key="prefScreenStorage" />
+    <Preference android:icon="?statistics" android:title="@string/statistics_label" android:key="statistics" />
+    <PreferenceCategory android:title="@string/project_pref">
+        <Preference android:icon="?ic_question_answer" android:title="@string/pref_faq" android:key="prefFaq" />
+        <Preference android:icon="?ic_known_issues" android:title="@string/pref_known_issues" android:key="prefKnownIssues" />
+        <Preference android:icon="?ic_bug" android:title="@string/crash_report_title" android:key="prefSendCrashReport" android:summary="@string/crash_report_sum" />
+        <Preference android:icon="?action_about" android:title="@string/about_pref" android:key="prefAbout" />
+    </PreferenceCategory>
+</PreferenceScreen>

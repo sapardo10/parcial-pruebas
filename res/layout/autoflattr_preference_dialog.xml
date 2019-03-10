@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:textSize="@dimen/text_size_small" android:textColor="?android:textColorPrimary" android:id="@id/chkAutoFlattr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:text="@string/auto_flattr_enable" />
+    <SeekBar android:id="@id/skbPercent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:max="100" />
+    <TextView android:textSize="@dimen/text_size_small" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:id="@id/txtvStatus" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:text="@string/auto_flattr_after_percent" android:lines="2" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="?android:textColorSecondary" android:id="@id/txtvType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/proxy_type_label" />
+    <Spinner android:id="@id/spType" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textColor="?android:textColorSecondary" android:id="@id/txtvHost" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/host_label" />
+    <EditText android:id="@id/etHost" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="www.example.com" android:singleLine="true" android:inputType="textUri" />
+    <TextView android:textColor="?android:textColorSecondary" android:id="@id/txtvPort" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/port_label" />
+    <EditText android:id="@id/etPort" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="8080" android:inputType="number" />
+    <TextView android:textColor="?android:textColorSecondary" android:id="@id/txtvUsername" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/username_label" android:singleLine="true" />
+    <EditText android:id="@id/etUsername" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/optional_hint" />
+    <TextView android:textColor="?android:textColorSecondary" android:id="@id/txtvPassword" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/password_label" />
+    <EditText android:id="@id/etPassword" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/optional_hint" android:inputType="textPassword" />
+    <com.joanzapata.iconify.widget.IconTextView android:gravity="center" android:id="@id/txtvMessage" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+</LinearLayout>

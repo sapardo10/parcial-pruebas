@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/content_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/header" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip">
+            <ImageView android:gravity="center_vertical" android:id="@id/imgvCover" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:contentDescription="@string/cover_label" />
+            <TextView android:id="@id/txtvPodcast" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/imgvCover" android:layout_alignTop="@id/imgvCover" style="@style/AntennaPod.TextView.ListItemSecondaryTitle" />
+            <TextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:id="@id/txtvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="5" android:layout_toRightOf="@id/imgvCover" android:layout_below="@id/txtvPodcast" />
+            <TextView android:id="@id/txtvDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/imgvCover" android:layout_below="@id/txtvTitle" style="@style/AntennaPod.TextView.ListItemSecondaryTitle" />
+            <TextView android:id="@id/txtvPublished" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_below="@id/txtvTitle" android:layout_alignParentRight="true" style="@style/AntennaPod.TextView.ListItemSecondaryTitle" />
+        </RelativeLayout>
+        <ProgressBar android:id="@id/progbarDownload" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" style="?android:progressBarStyleHorizontal" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+            <com.joanzapata.iconify.widget.IconButton android:textSize="@dimen/text_size_small" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/butAction1" android:background="?selectableItemBackground" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_marginRight="8.0dip" android:layout_weight="1.0" />
+            <com.joanzapata.iconify.widget.IconButton android:textSize="@dimen/text_size_small" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/butAction2" android:background="?selectableItemBackground" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_marginLeft="8.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <View android:background="@color/light_gray" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    </LinearLayout>
+    <WebView android:id="@id/webvDescription" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?android:windowContentOverlay" android:layout_below="@id/header" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:id="@id/progbarLoading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+    </FrameLayout>
+</RelativeLayout>

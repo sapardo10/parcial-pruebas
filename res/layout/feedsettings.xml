@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/feeditemlist_header" />
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/scrollView" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <android.support.v7.widget.GridLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" app:columnCount="2" app:rowCount="1">
+                <TextView android:id="@id/txtvFeedAutoDelete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/auto_delete_label" app:layout_column="0" app:layout_gravity="center_vertical" app:layout_row="0" />
+                <Spinner android:entries="@array/spnAutoDeleteItems" android:id="@id/spnAutoDelete" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:dropDownWidth="wrap_content" android:spinnerMode="dropdown" app:layout_column="1" app:layout_gravity="center" app:layout_row="0" />
+            </android.support.v7.widget.GridLayout>
+            <CheckBox android:enabled="true" android:textColor="?android:textColorPrimary" android:id="@id/cbxKeepUpdated" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:checked="true" android:text="@string/keep_updated" />
+            <TextView android:textSize="@dimen/text_size_medium" android:textColor="?android:textColorPrimary" android:id="@id/txtvAuthentication" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/authentication_label" />
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="?android:textColorPrimary" android:id="@id/txtvAuthenticationDescr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/authentication_descr" />
+            <android.support.v7.widget.GridLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" app:columnCount="2" app:rowCount="3">
+                <TextView android:textColor="?android:textColorPrimary" android:id="@id/txtvUsername" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/username_label" app:layout_column="0" app:layout_row="0" />
+                <EditText android:id="@id/etxtUsername" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="140.0sp" android:layout_height="wrap_content" android:hint="@string/username_label" android:cursorVisible="true" app:layout_column="1" app:layout_row="0" />
+                <TextView android:textColor="?android:textColorPrimary" android:id="@id/txtvPassword" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/password_label" app:layout_column="0" app:layout_row="1" />
+                <EditText android:id="@id/etxtPassword" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="140.0sp" android:layout_height="wrap_content" android:hint="@string/password_label" android:cursorVisible="true" android:inputType="textPassword" app:layout_column="1" app:layout_row="1" />
+            </android.support.v7.widget.GridLayout>
+            <TextView android:textSize="@dimen/text_size_medium" android:textColor="?android:textColorPrimary" android:id="@id/txtvAutoDownloadSettings" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/auto_download_settings_label" />
+            <CheckBox android:enabled="false" android:textColor="?android:textColorPrimary" android:id="@id/cbxAutoDownload" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:checked="false" android:text="@string/auto_download_label" />
+            <TextView android:textSize="@dimen/text_size_medium" android:textColor="?android:textColorPrimary" android:id="@id/txtvEpisodeFilters" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/episode_filters_label" />
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="?android:textColorPrimary" android:id="@id/txtvEpisodeFiltersDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/episode_filters_description" />
+            <RadioGroup android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/radio_filter_group" android:layout_width="fill_parent" android:layout_height="wrap_content"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <RadioButton android:id="@id/radio_filter_include" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/episode_filters_include" />
+                <RadioButton android:id="@id/radio_filter_exclude" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/episode_filters_exclude" />
+            </RadioGroup>
+            <EditText android:layout_gravity="center" android:id="@id/etxtEpisodeFilterText" android:focusable="true" android:focusableInTouchMode="true" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/episode_filters_hint" android:cursorVisible="true" android:maxLines="20" android:lines="8" android:minLines="1" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/txtvTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/gpodnetauth_finish_title" android:layout_alignParentTop="true" style="@style/AntennaPod.TextView.Heading" />
+    <TextView android:textSize="@dimen/text_size_medium" android:textColor="?android:textColorSecondary" android:id="@id/txtvDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/gpodnetauth_finish_descr" android:layout_below="@id/txtvTitle" />
+    <Button android:id="@id/butSyncNow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/gpodnetauth_finish_butsyncnow" android:layout_below="@id/txtvDescription" />
+    <Button android:id="@id/butGoMainscreen" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/gpodnetauth_finish_butgomainscreen" android:layout_below="@id/butSyncNow" />
+</RelativeLayout>

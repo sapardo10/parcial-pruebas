@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bottomBar" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="68.0dip" android:layout_alignParentBottom="true">
+        <Button android:textSize="10.0sp" android:id="@id/btnAddToQueue" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/add_to_queue_label" android:drawableTop="?content_new" android:layout_weight="1.0" />
+        <View android:id="@id/divider1" android:background="?android:listDivider" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_margin="4.0dip" />
+        <Button android:textSize="10.0sp" android:id="@id/btnMarkAsPlayed" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/mark_read_label" android:drawableTop="?navigation_accept" android:layout_weight="1.0" />
+        <View android:id="@id/divider2" android:background="?android:listDivider" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_margin="4.0dip" />
+        <Button android:textSize="10.0sp" android:id="@id/btnMarkAsUnplayed" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/mark_unread_label" android:drawableTop="?navigation_cancel" android:layout_weight="1.0" />
+        <View android:id="@id/divider3" android:background="?android:listDivider" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_margin="4.0dip" />
+        <Button android:textSize="10.0sp" android:id="@id/btnDownload" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/download_label" android:drawableTop="?av_download" android:layout_weight="1.0" />
+        <View android:id="@id/divider4" android:background="?android:listDivider" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_margin="4.0dip" />
+        <Button android:textSize="10.0sp" android:id="@id/btnDelete" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/remove_episode_lable" android:drawableTop="?content_discard" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="?android:listDivider" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_above="@id/bottomBar" />
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/divider" />
+</RelativeLayout>

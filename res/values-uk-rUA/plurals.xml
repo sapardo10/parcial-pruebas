@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloads_left">
+        <item quantity="other">%d завантажень залишилось</item>
+        <item quantity="one">%d завантаження залишилось</item>
+        <item quantity="few">%d завантаження залишилось</item>
+        <item quantity="many">%d завантажень залишилось</item>
+    </plurals>
+    <plurals name="episode_cleanup_days_after_listening">
+        <item quantity="other">%d днів після закінчення</item>
+        <item quantity="one">1 день після закінчення</item>
+        <item quantity="few">%d дні після закінчення</item>
+        <item quantity="many">%d днів після закінчення</item>
+    </plurals>
+    <plurals name="time_hours_quantified">
+        <item quantity="other">%d годин</item>
+        <item quantity="one">1 година</item>
+        <item quantity="few">%d години</item>
+        <item quantity="many">%d годин</item>
+    </plurals>
+    <plurals name="time_minutes_quantified">
+        <item quantity="other">%d хвилин</item>
+        <item quantity="one">1 хвилина</item>
+        <item quantity="few">%d хвилини</item>
+        <item quantity="many">%d хвилин</item>
+    </plurals>
+    <plurals name="time_seconds_quantified">
+        <item quantity="other">%d секунд</item>
+        <item quantity="one">1 секунда</item>
+        <item quantity="few">%d секунди</item>
+        <item quantity="many">%d секунд</item>
+    </plurals>
+</resources>

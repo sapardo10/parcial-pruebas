@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/content" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/txtvPlaceholder" android:background="@color/light_gray" android:layout_width="@dimen/thumbnail_length_itemlist" android:layout_height="@dimen/thumbnail_length_itemlist" android:layout_marginLeft="@dimen/listitem_threeline_horizontalpadding" android:layout_marginTop="@dimen/listitem_threeline_verticalpadding" android:layout_marginBottom="@dimen/listitem_threeline_verticalpadding" android:maxLines="3" />
+            <ImageView android:id="@id/imgvCover" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_alignLeft="@id/txtvPlaceholder" android:layout_alignTop="@id/txtvPlaceholder" android:layout_alignRight="@id/txtvPlaceholder" android:layout_alignBottom="@id/txtvPlaceholder" android:contentDescription="@string/cover_label" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/listitem_threeline_textleftpadding" android:layout_marginTop="@dimen/listitem_threeline_verticalpadding" android:layout_marginRight="@dimen/listitem_threeline_textrightpadding" android:layout_marginBottom="@dimen/listitem_threeline_verticalpadding" android:layout_weight="1.0">
+            <TextView android:id="@id/statusUnread" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/AntennaPod.TextView.UnreadIndicator" />
+            <TextView android:id="@id/txtvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/statusUnread" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/AntennaPod.TextView.ListItemPrimaryTitle" />
+            <RelativeLayout android:id="@id/bottom_bar" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_below="@id/txtvTitle" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+                <TextView android:id="@id/txtvDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" style="@style/AntennaPod.TextView.ListItemSecondaryTitle" />
+                <ImageView android:id="@id/imgvInPlaylist" android:layout_width="@dimen/enc_icons_size" android:layout_height="@dimen/enc_icons_size" android:layout_marginLeft="8.0dip" android:src="?stat_playlist" android:layout_alignParentRight="true" android:contentDescription="@string/in_queue_label" />
+                <TextView android:ellipsize="end" android:id="@id/txtvPublished" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/imgvInPlaylist" android:layout_alignParentTop="true" style="@style/AntennaPod.TextView.ListItemSecondaryTitle" />
+                <ProgressBar android:id="@id/pbar_progress" android:layout_width="fill_parent" android:layout_height="4.0dip" android:max="100" android:layout_below="@id/txtvDuration" style="?progressBarTheme" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <include layout="@layout/vertical_list_divider" />
+        <include layout="@layout/secondary_action" />
+    </LinearLayout>
+</FrameLayout>

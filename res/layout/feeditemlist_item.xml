@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/listitem_threeline_horizontalpadding" android:layout_marginTop="@dimen/listitem_threeline_verticalpadding" android:layout_marginBottom="@dimen/listitem_threeline_verticalpadding" android:layout_weight="1.0">
+        <TextView android:id="@id/statusUnread" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/AntennaPod.TextView.UnreadIndicator" />
+        <TextView android:id="@id/txtvItemname" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:layout_toLeftOf="@id/statusUnread" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/AntennaPod.TextView.ListItemPrimaryTitle" />
+        <TextView android:id="@id/txtvLenSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/txtvItemname" android:layout_alignParentLeft="true" style="@style/AntennaPod.TextView.ListItemSecondaryTitle" />
+        <ImageView android:id="@id/imgvInPlaylist" android:visibility="visible" android:layout_width="@dimen/enc_icons_size" android:layout_height="@dimen/enc_icons_size" android:layout_marginRight="8.0dip" android:src="?stat_playlist" android:layout_below="@id/txtvItemname" android:layout_alignParentRight="true" android:contentDescription="@string/in_queue_label" />
+        <ImageView android:id="@id/imgvType" android:layout_width="@dimen/enc_icons_size" android:layout_height="@dimen/enc_icons_size" android:layout_marginRight="8.0dip" android:layout_toLeftOf="@id/imgvInPlaylist" android:layout_below="@id/txtvItemname" />
+        <TextView android:id="@id/txtvPublished" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_toLeftOf="@id/imgvType" android:layout_below="@id/txtvItemname" style="@style/AntennaPod.TextView.ListItemSecondaryTitle" />
+        <ProgressBar android:id="@id/pbar_episode_progress" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:max="100" android:progress="42" android:indeterminate="false" android:layout_toLeftOf="@id/txtvPublished" android:layout_toRightOf="@id/txtvLenSize" android:layout_alignBottom="@id/txtvPublished" style="?android:progressBarStyleHorizontal" />
+    </RelativeLayout>
+    <include layout="@layout/vertical_list_divider" />
+    <include layout="@layout/secondary_action" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:numberpicker="http://schemas.android.com/apk/de.danoeh.antennapod" xmlns:search="http://schemas.android.com/apk/com.bytehamster.lib.preferencesearch" xmlns:aapt="http://schemas.android.com/aapt">
+    <Preference android:title="@string/choose_data_directory" android:key="prefChooseDataDir"/>
+    <ListPreference android:entries="@array/image_cache_size_options" android:title="@string/pref_image_cache_size_title" android:key="prefImageCacheSize" android:summary="@string/pref_image_cache_size_sum" android:defaultValue="100" android:entryValues="@array/image_cache_size_values"/>
+    <SwitchPreference android:enabled="true" android:title="@string/pref_auto_delete_title" android:key="prefAutoDelete" android:summary="@string/pref_auto_delete_sum" android:defaultValue="false"/>
+    <SwitchPreference android:enabled="true" android:title="@string/pref_favorite_keeps_episodes_title" android:key="prefFavoriteKeepsEpisode" android:summary="@string/pref_favorite_keeps_episodes_sum" android:defaultValue="true"/>
+    <SwitchPreference android:enabled="true" android:title="@string/pref_delete_removes_from_queue_title" android:key="prefDeleteRemovesFromQueue" android:summary="@string/pref_delete_removes_from_queue_sum" android:defaultValue="false"/>
+    <PreferenceCategory android:title="@string/import_export_pref">
+        <Preference android:title="@string/opml_export_label" android:key="prefOpmlExport"/>
+        <Preference android:title="@string/opml_import_label" android:key="prefOpmlImport"/>
+        <Preference android:title="@string/html_export_label" android:key="prefHtmlExport"/>
+        <Preference android:title="@string/import_export" android:key="importExport" search:keywords="@string/import_export_search_keywords"/>
+    </PreferenceCategory>
+</PreferenceScreen>

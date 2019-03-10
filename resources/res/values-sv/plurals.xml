@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="time_difference_short_days">
+        <item>%d d</item>
+        <item>%d d</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item>%d tim.</item>
+        <item>%d tim.</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item>%d min</item>
+        <item>%d min</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item>%d dag</item>
+        <item>%d dagar</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item>%d tim.</item>
+        <item>%d tim.</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item>%d min</item>
+        <item>%d min</item>
+    </plurals>
+</resources>

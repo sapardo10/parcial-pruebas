@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloads_left">
+        <item>%d डाउनलोड बाकी</item>
+        <item>%d डाउनलोड बाकी</item>
+    </plurals>
+    <plurals name="episode_cleanup_days_after_listening">
+        <item>समाप्ति के 1 दिन बाद</item>
+        <item>समाप्ति के %d दिन बाद</item>
+    </plurals>
+</resources>

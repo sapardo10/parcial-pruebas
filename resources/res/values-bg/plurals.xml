@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="time_hours_quantified">
+        <item>1 час</item>
+        <item>%d часа</item>
+    </plurals>
+    <plurals name="time_minutes_quantified">
+        <item>1 минута</item>
+        <item>%d минути</item>
+    </plurals>
+    <plurals name="time_seconds_quantified">
+        <item>1 секунда</item>
+        <item>%d секунди</item>
+    </plurals>
+</resources>

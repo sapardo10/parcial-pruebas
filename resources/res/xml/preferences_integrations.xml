@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:search="http://schemas.android.com/apk/com.bytehamster.lib.preferencesearch" xmlns:aapt="http://schemas.android.com/aapt">
+    <Preference android:title="@string/flattr_label" android:key="prefFlattrSettings" android:summary="@string/flattr_summary"/>
+    <Preference android:title="@string/gpodnet_main_label" android:key="prefGpodderSettings" android:summary="@string/gpodnet_summary"/>
+</PreferenceScreen>

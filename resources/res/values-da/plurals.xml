@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloads_left">
+        <item>%d overførsel mangler</item>
+        <item>%d overførsler mangler</item>
+    </plurals>
+    <plurals name="episode_cleanup_days_after_listening">
+        <item>1 dag efter færdig afspilning</item>
+        <item>%d dage efter færdig afspilning</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item>%d dag</item>
+        <item>%d dage</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item>%d t.</item>
+        <item>%d t.</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item>%d min.</item>
+        <item>%d min.</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item>%d dag</item>
+        <item>%d dage</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item>%d time</item>
+        <item>%d timer</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item>%d min.</item>
+        <item>%d min.</item>
+    </plurals>
+    <plurals name="time_hours_quantified">
+        <item>1 time</item>
+        <item>%d timer</item>
+    </plurals>
+    <plurals name="time_minutes_quantified">
+        <item>1 minut</item>
+        <item>%d minutter</item>
+    </plurals>
+    <plurals name="time_seconds_quantified">
+        <item>1 sekund</item>
+        <item>%d sekunder</item>
+    </plurals>
+</resources>

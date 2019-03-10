@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <de.danoeh.antennapod.view.SquareImageView android:id="@+id/imgvCover" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <com.joanzapata.iconify.widget.IconTextView android:ellipsize="end" android:gravity="center" android:id="@+id/txtvTitle" android:background="@color/light_gray" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <jp.shts.android.library.TriangleLabelView android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:id="@+id/triangleCountView" android:layout_width="match_parent" android:layout_height="match_parent" app:backgroundColor="@color/antennapod_blue" app:corner="2" app:primaryText="Test" app:primaryTextColor="@color/white" app:primaryTextSize="12sp"/>
+</FrameLayout>

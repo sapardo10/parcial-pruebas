@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/txtvPodcastDirectories" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/podcastdirectories_label" style="@style/AntennaPod.TextView.Heading" />
+        <TextView android:textSize="@dimen/text_size_medium" android:id="@id/txtvPodcastDirectoriesDescr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/podcastdirectories_descr" />
+        <Button android:id="@id/butSearchItunes" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/search_itunes_label" />
+        <Button android:id="@id/butSearchFyyd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/search_fyyd_label" />
+        <Button android:id="@id/butBrowseGpoddernet" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/browse_gpoddernet_label" />
+        <View style="@style/Divider" />
+        <TextView android:id="@id/txtvFeedurl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/txtvfeedurl_label" style="@style/AntennaPod.TextView.Heading" />
+        <EditText android:id="@id/etxtFeedurl" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/etxtFeedurlHint" android:cursorVisible="true" android:inputType="textUri" />
+        <Button android:id="@id/butConfirm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/confirm_label" />
+        <View style="@style/Divider" />
+        <TextView android:id="@id/txtvOpmlImport" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/opml_import_label" style="@style/AntennaPod.TextView.Heading" />
+        <TextView android:textSize="@dimen/text_size_medium" android:id="@id/txtvOpmlImportExpl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/opml_import_txtv_button_lable" />
+        <Button android:id="@id/butOpmlImport" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/opml_import_label" />
+    </LinearLayout>
+</ScrollView>

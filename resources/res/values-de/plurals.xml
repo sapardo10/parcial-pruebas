@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloads_left">
+        <item>%d Download übrig</item>
+        <item>%d Downloads übrig</item>
+    </plurals>
+    <plurals name="episode_cleanup_days_after_listening">
+        <item>1 Tag nachdem fertig gespielt</item>
+        <item>%d Tage nachdem fertig gespielt</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item>%d d</item>
+        <item>%d d</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item>%d h</item>
+        <item>%d h</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item>%d min</item>
+        <item>%d min</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item>%d Tag</item>
+        <item>%d Tage</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item>%d Stunde</item>
+        <item>%d Stunden</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item>%d Minute</item>
+        <item>%d Minuten</item>
+    </plurals>
+    <plurals name="time_hours_quantified">
+        <item>1 Stunde</item>
+        <item>%d Stunden</item>
+    </plurals>
+    <plurals name="time_minutes_quantified">
+        <item>1 Minute</item>
+        <item>%d Minuten</item>
+    </plurals>
+    <plurals name="time_seconds_quantified">
+        <item>1 Sekunde</item>
+        <item>%d Sekunden</item>
+    </plurals>
+</resources>

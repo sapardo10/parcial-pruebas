@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/feeditemlist_header" />
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/scrollView" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <android.support.v7.widget.GridLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" app:columnCount="2" app:rowCount="3">
+                <TextView android:textColor="?android:textColorPrimary" android:id="@id/lblAuthor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/author_label" android:lines="1" android:layout_alignParentLeft="true" android:layout_marginEnd="8.0dip" android:layout_alignParentStart="true" app:layout_column="0" app:layout_row="0" />
+                <TextView android:id="@id/txtvDetailsAuthor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="true" app:layout_column="1" app:layout_row="0" />
+                <TextView android:textColor="?android:textColorPrimary" android:id="@id/lblLanguage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/language_label" android:lines="1" android:layout_marginEnd="8.0dip" app:layout_column="0" app:layout_row="1" />
+                <TextView android:id="@id/txtvLanguage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="true" app:layout_column="1" app:layout_row="1" />
+                <TextView android:textColor="?android:textColorPrimary" android:id="@id/lblUrl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:text="@string/url_label" android:lines="1" android:layout_marginEnd="8.0dip" app:layout_column="0" app:layout_row="2" />
+                <TextView android:id="@id/txtvUrl" android:background="?selectableItemBackground" android:paddingBottom="4.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="4" app:layout_column="1" app:layout_gravity="fill" app:layout_row="2" />
+            </android.support.v7.widget.GridLayout>
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/description_label" style="@style/AntennaPod.TextView.Heading" />
+            <TextView android:id="@id/txtvDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/design_time_lorem_ipsum" android:textIsSelectable="true" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

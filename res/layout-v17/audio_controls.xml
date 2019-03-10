@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/playback_speed" style="@style/AntennaPod.TextView.ListItemPrimaryTitle" />
+        <TextView android:id="@id/txtvPlaybackSpeed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="1.00x" android:layout_marginStart="16.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-12.0dip">
+        <Button android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/status_progress" android:gravity="center" android:id="@id/butDecSpeed" android:background="@drawable/borderless_button_dark" android:layout_width="32.0dip" android:layout_height="32.0dip" android:text="-" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+        <Button android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/status_progress" android:gravity="center" android:id="@id/butIncSpeed" android:background="@drawable/borderless_button_dark" android:layout_width="32.0dip" android:layout_height="32.0dip" android:minWidth="0.0dip" android:text="+" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+        <SeekBar android:id="@id/playback_speed" android:layout_width="fill_parent" android:layout_height="32.0dip" android:max="40" android:layout_toLeftOf="@id/butIncSpeed" android:layout_toRightOf="@id/butDecSpeed" android:layout_centerVertical="true" android:layout_toStartOf="@id/butIncSpeed" android:layout_toEndOf="@id/butDecSpeed" />
+    </RelativeLayout>
+    <CheckBox android:id="@id/skipSilence" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/pref_skip_silence_title" />
+    <TextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/volume" style="@style/AntennaPod.TextView.ListItemPrimaryTitle" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="-12.0dip" android:layout_marginStart="8.0dip">
+        <TextView android:id="@id/txtvLeft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/left_short" />
+        <SeekBar android:id="@id/volume_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="100" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginStart="8.0dip">
+        <TextView android:id="@id/txtvRight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/right_short" />
+        <SeekBar android:id="@id/volume_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="100" />
+    </LinearLayout>
+    <TextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/audio_effects" style="@style/AntennaPod.TextView.ListItemPrimaryTitle" />
+    <CheckBox android:id="@id/stereo_to_mono" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-12.0dip" android:text="@string/stereo_to_mono" />
+</LinearLayout>

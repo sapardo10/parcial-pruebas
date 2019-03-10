@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="downloads_left">
+        <item>Осталась %d загрузка</item>
+        <item>Осталось %d загрузки</item>
+        <item>Осталось %d загрузок</item>
+        <item>Осталось %d загрузок</item>
+    </plurals>
+    <plurals name="episode_cleanup_days_after_listening">
+        <item>день после прослушивания</item>
+        <item>%d дня после прослушивания</item>
+        <item>%d дней после прослушивания</item>
+        <item>%d дней после прослушивания</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item>%d д</item>
+        <item>%d д</item>
+        <item>%d д</item>
+        <item>%d д</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item>%d ч</item>
+        <item>%d ч</item>
+        <item>%d ч</item>
+        <item>%d ч</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item>%d м</item>
+        <item>%d м</item>
+        <item>%d м</item>
+        <item>%d м</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item>%d дн.</item>
+        <item>%d дн.</item>
+        <item>%d дн.</item>
+        <item>%d дн.</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item>%d ч.</item>
+        <item>%d ч.</item>
+        <item>%d ч.</item>
+        <item>%d ч.</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item>%d мин.</item>
+        <item>%d мин.</item>
+        <item>%d мин.</item>
+        <item>%d мин.</item>
+    </plurals>
+    <plurals name="time_hours_quantified">
+        <item>1 час</item>
+        <item>%d ч.</item>
+        <item>%d часов</item>
+        <item>%d часов</item>
+    </plurals>
+    <plurals name="time_minutes_quantified">
+        <item>1 минута</item>
+        <item>%d мин.</item>
+        <item>%d минут</item>
+        <item>%d минут</item>
+    </plurals>
+    <plurals name="time_seconds_quantified">
+        <item>1 секунда</item>
+        <item>%d сек.</item>
+        <item>%d секунд</item>
+        <item>%d секунд</item>
+    </plurals>
+</resources>

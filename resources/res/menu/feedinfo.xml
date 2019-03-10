@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="?attr/location_web_site" android:id="@+id/visit_website_item" android:visible="true" android:title="@string/visit_website_label" app:showAsAction="never|ifRoom|collapseActionView"/>
+    <item android:id="@+id/support_item" android:visible="false" android:title="@string/support_label" app:showAsAction="never|ifRoom|collapseActionView"/>
+    <item android:id="@+id/share_link_item" android:title="@string/share_link_label" app:showAsAction="collapseActionView"/>
+    <item android:id="@+id/share_download_url_item" android:title="@string/share_feed_url_label" app:showAsAction="collapseActionView"/>
+</menu>

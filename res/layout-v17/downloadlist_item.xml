@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:id="@id/txtvTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/listitem_threeline_horizontalpadding" android:layout_marginTop="@dimen/listitem_threeline_verticalpadding" android:lines="1" android:layout_marginStart="@dimen/listitem_threeline_horizontalpadding" />
+        <ProgressBar android:id="@id/progProgress" android:layout_width="fill_parent" android:layout_height="16.0dip" android:layout_marginLeft="@dimen/listitem_threeline_horizontalpadding" android:layout_marginTop="4.0dip" android:layout_marginRight="@dimen/listitem_threeline_horizontalpadding" android:layout_marginBottom="4.0dip" style="?android:progressBarStyleHorizontal" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/listitem_threeline_horizontalpadding" android:layout_marginRight="@dimen/listitem_threeline_horizontalpadding" android:layout_marginBottom="@dimen/listitem_threeline_verticalpadding">
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:id="@id/txtvDownloaded" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:id="@id/txtvPercent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <include layout="@layout/vertical_list_divider" />
+    <ImageButton android:id="@id/butSecondaryAction" android:background="?selectableItemBackground" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="@dimen/listview_secondary_button_width" android:layout_height="fill_parent" android:src="?navigation_cancel" android:contentDescription="@string/cancel_download_label" />
+</LinearLayout>

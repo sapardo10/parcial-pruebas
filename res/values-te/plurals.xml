@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="episode_cleanup_days_after_listening">
+        <item quantity="other">ముగించిన %d రోజుల తర్వాత</item>
+        <item quantity="one">ముగించిన 1 రోజు తర్వాత</item>
+    </plurals>
+    <plurals name="time_hours_quantified">
+        <item quantity="other">%d గంటలు</item>
+        <item quantity="one">1 గంట</item>
+    </plurals>
+    <plurals name="time_minutes_quantified">
+        <item quantity="other">%d నిమిషాలు</item>
+        <item quantity="one">1 నిమిషం</item>
+    </plurals>
+    <plurals name="time_seconds_quantified">
+        <item quantity="other">%d క్షణాలు</item>
+        <item quantity="one">1 క్షణం</item>
+    </plurals>
+</resources>

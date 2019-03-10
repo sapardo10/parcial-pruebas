@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@id/txtvPubDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:lines="1" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginStart="8.0dip" android:layout_alignParentEnd="true" style="@android:style/TextAppearance.Small" />
+    <TextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:id="@id/txtvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_toLeftOf="@id/txtvPubDate" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_toStartOf="@id/txtvPubDate" android:layout_alignParentStart="true" />
+    <TextView android:textSize="14.0sp" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@id/txtvDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" android:layout_below="@id/txtvTitle" />
+</RelativeLayout>
